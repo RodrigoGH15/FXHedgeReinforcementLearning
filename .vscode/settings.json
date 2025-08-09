@@ -1,0 +1,35 @@
+{
+    "editor.rulers": [79],
+    "terminal.integrated.environmentChangesIndicator": "on",
+
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always",
+            "source.fixAll": "always"
+        },
+    },
+    "ruff.nativeServer": true,
+    "ruff.lint.select": [
+        "C",
+        "E",
+        "F",
+        "W",
+        "B",
+        "PL"
+    ],
+    "ruff.lint.ignore": ["PLR0904"],
+    "ruff.lineLength": 79,
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "python.languageServer": "Pylance",
+    
+    "editor.defaultFormatter": "ms-python.vscode-pylance",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.analysis.diagnosticMode": "workspace",
+    "ruff.configuration": ""
+
+}
